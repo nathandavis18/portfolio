@@ -15,8 +15,8 @@ export default function Resume(){
 
                 <div className="max-w-4xl col-span-6">
                     <blockquote className="my-8">
-                    <b>Go to: </b> <a href="#summary">Summary</a> | 
-                        <a href="#skills">Technical Skills</a> | <a href="#education">Education</a> | <a href="#projects">Projects</a> | <a href="#experience">Experience</a> | <a href="#about-me">About Me</a> | <a href="/Resume/nathan-davis-resume.pdf">PDF</a>
+                    <b>Go to: </b> 
+                    <a href="#summary">Summary</a> | <a href="#education">Education</a> | <a href="#skills">Technical Skills</a> | <a href="#projects">Projects</a> | <a href="#experience">Experience</a> | <a href="#about-me">About Me</a> | <a href="/Resume/nathan-davis-resume.pdf">PDF</a>
                     </blockquote>
                 </div>
                 <hr className="col-span-6 border-zinc-500 mb-3" />
@@ -55,7 +55,7 @@ export default function Resume(){
                 <hr className="col-span-6 border-zinc-500 mb-3" />
 
                 <div className="max-w-4xl col-span-6">
-                    <h2 id="education" style={{fontSize: '30px'}}>Technical Skills</h2>
+                    <h2 id="skills" style={{fontSize: '30px'}}>Technical Skills</h2>
                 </div>
                 <div className="max-w-4xl col-span-6 ml-6 mb-5" style={{fontSize: '18px'}}>
                     <ul>
@@ -67,9 +67,9 @@ export default function Resume(){
                 <hr className="col-span-6 border-zinc-500 mb-3" />
 
                 <div className="max-w-4xl col-span-6">
-                    <h2 id="education" style={{fontSize: '30px'}}>Technical Projects</h2>
+                    <h2 id="projects" style={{fontSize: '30px'}}>Technical Projects</h2>
                 </div>
-                <div className="max-w-3xl col-span-5 mt-3" style={{fontSize: '18px'}}><b className="text-start">CAPSTONE: Appointment Scheduling System</b> | <i>C#, .NET, JavaScript, SQL, Bootstrap</i></div>
+                <div className="max-w-3xl col-span-5 mt-3" style={{fontSize: '18px'}}><b className="text-start">CAPSTONE: Appointment Scheduling System</b> | <i>C#, .NET, JavaScript, SQL, Bootstrap, Git</i></div>
                 <div className="max-w-1xl col-span-1 mt-3" style={{fontSize: '18px'}}><p className="text-end">Feb 2024 &ndash; Apr 2024</p></div>
                 <div className="col-span-6 text-end" style={{fontSize: '18px'}}>
                     <a className="text-end" href="https://github.com/nathandavis18/Steamboat-Willie" target="_blank" style={{color: '#ededed', textDecorationLine: 'none'}}>github.com/nathandavis18/Steamboat-Willie</a>
@@ -119,7 +119,7 @@ export default function Resume(){
                 <div className="max-w-3xl col-span-5 mt-3" style={{fontSize: '18px'}}><b className="text-start">Portfolio Website</b> | <i>JavaScript, React/Next.js, HTML, CSS, Tailwind</i></div>
                 <div className="max-w-1xl col-span-1 mt-3" style={{fontSize: '18px'}}><p className="text-end">June 2024 &ndash; Present</p></div>
                 <div className="col-span-6 text-end" style={{fontSize: '18px'}}>
-                    <a className="text-end" href="https://github.com/nathandavis18/NotVim-Editor" target="_blank" style={{color: '#ededed', textDecorationLine: 'none'}}>github.com/nathandavis18/NotVim-Editor</a>
+                    <a className="text-end" href="https://github.com/nathandavis18/portfolio" target="_blank" style={{color: '#ededed', textDecorationLine: 'none'}}>github.com/nathandavis18/portfolio</a>
                 </div>
                 <div className="max-w-4xl col-span-6 ml-6 mb-3" style={{fontSize: '18px'}}>
                     <ul>
@@ -163,7 +163,7 @@ export default function Resume(){
                 </div>
                 <div className="max-w-3xl col-span-5 mt-3" style={{fontSize: '18px'}}><b className="text-start">Personal Shopper</b> - Walmart | Layton, UT</div>
                 <div className="max-w-1xl col-span-1 mt-3" style={{fontSize: '18px'}}><p className="text-end">Aug 2020 &ndash; Present</p></div>
-                <div className="max-w-4xl col-span-6 ml-6 mb-3" style={{fontSize: '18px'}}>
+                <div className="max-w-4xl col-span-6 ml-6 mb-5" style={{fontSize: '18px'}}>
                     <ul>
                         <li>
                             Optimized picking operations to increase efficiency by 10%, 
@@ -176,6 +176,20 @@ export default function Resume(){
                             Trained and mentored 10+ new hires, streamlining onboarding processes and enhancing team productivity
                         </li>
                     </ul>
+                </div>
+
+                <hr className="col-span-6 border-zinc-500 mb-3" />
+
+                <div className="max-w-4xl col-span-6">
+                    <h2 id="about-me" style={{fontSize: '30px'}}>About Me</h2>
+                </div>
+                <div className="max-w-4xl col-span-6 mt-3" style={{fontSize: '18px'}}>
+                    I was originally interested in programming because I wanted to learn how games were made and wanted to make my own. 
+                    I chose to enroll at Weber State University due to all the positive things I had heard about it, and I can say that I made a good choice.
+                    During my time in Weber's computer science degree, I started to enjoy the software engineering side of programming more and more. <br /> <br />
+                    
+                    Outside of my time at Weber and work, I enjoy spending my time working on individual projects, spending time with my family, and playing some of my favorite games.
+                    I also frequently do independent research to further hone my programming skills. I am a motivated self-learner, and pride myself in being the best that I can.
                 </div>
             </div>
         </div>
